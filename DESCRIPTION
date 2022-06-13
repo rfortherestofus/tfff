@@ -2,11 +2,10 @@ Package: tfff
 Title: Internal R Package for Ford Family Foundation
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "David",
+           family = "Keyes",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "david@rfortherestofus.com")
 Description: Internal Package for Ford Family Foundation
 License: MIT + file LICENSE
 Encoding: UTF-8
