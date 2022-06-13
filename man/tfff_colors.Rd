@@ -2,16 +2,18 @@
 % Please edit documentation in R/tfff-colors.R
 \name{tfff_colors}
 \alias{tfff_colors}
-\title{Title}
+\title{Function to extract TFFF colors as hex codes}
 \usage{
-tfff_colors(desired_colors)
+tfff_colors(...)
 }
 \arguments{
-\item{desired_colors}{}
+\item{...}{color or colors you want to retun}
 }
 \value{
-
+A vector of colors
 }
 \description{
-Title
+tfff_colors() enables you to pull colors directly from the tfff palette.
+Choose one of the following options: `Dark Green`, `Light Green`, `Orange`,
+`Yellow`, `Blue`, `Red`, `Brown`, `Dark Gray`, `Medium Gray`, `Light Gray`.
 }

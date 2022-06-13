@@ -3,5 +3,5 @@
 export("%>%")
 export(tfff_colors)
 export(tfff_get_basemap)
-export(tfff_theme)
+export(theme_tfff)
 importFrom(magrittr,"%>%")
