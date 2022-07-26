@@ -10,7 +10,6 @@
 #' @export
 #'
 tfff_colors <- function(...) {
-
   tfff_colors_vector <- c(
     `Dark Green` = "#265142",
     `Light Green` = "#B5CC8E",
@@ -36,5 +35,3 @@ tfff_colors <- function(...) {
 
 
 }
-
-

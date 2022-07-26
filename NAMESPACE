@@ -2,6 +2,7 @@
 
 export("%>%")
 export(tfff_colors)
+export(tfff_draft)
 export(tfff_get_basemap)
 export(theme_tfff)
 importFrom(magrittr,"%>%")
