@@ -1,0 +1,44 @@
+/* Body & titles */
+
+
+body {
+  font-family: var(--font-main);
+  font-size: var(--font-size);
+  color: var(--color-body);
+}
+
+main > h1,
+main > h2,
+main > h3,
+main > h4{
+  font-family: var(--font-title);
+}
+
+h1 {
+  font-size: 28pt;
+  font-weight: bold;
+  color: var(--tfff-green);
+  line-height: 1;
+}
+
+h2 {
+  font-size: 20pt;
+  font-weight: normal;
+  color: var(--tfff-green);
+  line-height: 1;
+}
+
+h3 {
+  font-size: 16pt;
+  font-weight: bold;
+  color: var(--tfff-green);
+  line-height: 1;
+}
+
+h4 {
+  font-size: 12pt;
+}
+
+.figure {
+  break-inside: avoid;
+}

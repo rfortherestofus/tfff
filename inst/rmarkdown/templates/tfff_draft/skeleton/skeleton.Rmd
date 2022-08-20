@@ -1,18 +1,85 @@
 ---
 title: "Template Title"
-author: "Your Name"
-date: "The Date"
-output: output_format
+subtitle: "Your Name"
+output: tfff::tfff_draft
+knit: pagedown::chrome_print
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Adding an RMarkdown Template
+:::descr-block
+**Total Pop = XXX Land Area = XXX**
+:::
 
-This file is what a user will see when they select your template. Make sure that you update the fields in the yaml header. In particular you will want to update the `output` field to whatever format your template requires.
+:::::wrap-columns
+::::columns-50-left
 
-This is a good place to demonstrate special features that your template provides. Ideally it should knit out-of-the-box, or at least contain clear instructions as to what needs changing.
+## One title
 
-Finally, be sure to remove this message!
+GRAPH
+
+:::wrap-columns-icons
+:::mini-icon
+
+ICON LINK
+
+:::
+:::mini-title
+
+## One title
+:::
+:::
+
+### One question
+
+GRAPH
+
+### One other question
+
+GRAPH
+
+### One other question
+
+GRAPH
+
+::::
+
+::::columns-50-right
+:::wrap-columns-icons
+:::mini-icon
+
+ICON LINK
+:::
+:::mini-title
+
+## One title
+:::
+:::
+
+### One question
+
+GRAPH
+
+### One other question
+
+GRAPH
+
+### One other question
+
+GRAPH
+
+:::green-block
+
+### XXX
+
+:::
+
+::::
+:::::
+
+\newpage
+
+Some text
+

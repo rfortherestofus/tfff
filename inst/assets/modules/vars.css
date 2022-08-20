@@ -1,0 +1,28 @@
+:root {
+  /* interface */
+  --color-background: rgba(0, 0, 0, 0.2);
+  --color-paper: white;
+
+  /* fonts */
+  --font-main: "Calibri";
+  --font-title: "Calibri";
+
+  /* base unit */
+  --unit: 2cm;
+  --margin-unit: 0.5cm;
+
+  /* margin */
+  --pagedjs-margin-left: 2cm;
+  --pagedjs-margin-right: 1cm;
+  --pagedjs-margin-bottom: 1cm;
+  --pagedjs-margin-top: 1cm;
+
+  /* fonts */
+  --font-size: 14px;
+  --color-body: black;
+
+  /* colors */
+  --tfff-green: #265142;
+  --tfff-lightgreen: #B5CC8E;
+}
+

@@ -6,5 +6,10 @@
 #' @export
 #'
 tfff_draft <- function(...) {
-  pagedown::html_paged(..., number_sections = FALSE, toc = FALSE)
+  pagedown::html_paged(
+    css = system.file("assets/main.css", package = "tfff"),
+    number_sections = FALSE,
+    toc = FALSE,
+    ...
+  )
 }
