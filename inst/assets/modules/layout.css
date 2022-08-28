@@ -17,7 +17,7 @@
     text-transform: uppercase;
     color: var(--tfff-lightgreen);
     font-weight: normal;
-    font-size: 12pt;
+    font-size: 11pt;
   }
 }
 
@@ -35,6 +35,8 @@
 
 .columns-50 {
   flex: 50%;
+  padding-left: 0.1in;
+  padding-right:0.1in;
 }
 
 .columns-50-left {
@@ -53,12 +55,17 @@
 .wrap-columns-icons {
   display: flex;
   padding: 0 0pt;
-  border-top: solid 1px  var(--tfff-lightgreen);
-  border-bottom: solid 1px var(--tfff-lightgreen);
+  border-top: solid 1pt var(--tfff-lightgreen);
+  border-bottom: solid 1pt var(--tfff-lightgreen);
 }
 
 .mini-icon {
   flex: 20%;
+}
+
+.mini-icon > p > img {
+  width: 0.55in;
+  height: 0.55in;
 }
 
 .mini-title {
@@ -68,8 +75,10 @@
 /* Specific */
 .descr-block {
   position: absolute;
-  margin-left: 5in;
-  margin-top: -0.5in;
+  margin-left: 3.7in;
+  margin-top: -0.3in;
+  color: var(--tfff-green);
+  font-size: 11pt;
 }
 
 .green-block {

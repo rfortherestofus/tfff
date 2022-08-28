@@ -24,6 +24,6 @@ h1.subtitle {
   border-bottom: solid 1px var(--tfff-green);
   text-transform: uppercase;
   color: var(--tfff-lightgreen);
-  font-weight: normal;
-  font-size: 18pt;
+  font-weight: 600;
+  font-size: 11pt;
 }

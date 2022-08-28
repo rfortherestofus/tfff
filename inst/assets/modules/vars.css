@@ -12,10 +12,10 @@
   --margin-unit: 0.5cm;
 
   /* margin */
-  --pagedjs-margin-left: 2cm;
-  --pagedjs-margin-right: 1cm;
-  --pagedjs-margin-bottom: 1cm;
-  --pagedjs-margin-top: 1cm;
+  --pagedjs-margin-left: 0.5in;
+  --pagedjs-margin-right: 0.5in;
+  --pagedjs-margin-bottom: 0.5in;
+  --pagedjs-margin-top: 0.5in;
 
   /* fonts */
   --font-size: 14px;
