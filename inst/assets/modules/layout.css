@@ -82,9 +82,8 @@
 }
 
 .green-block {
-  background-color: var(--tfff-lightgreen);
+  background-color: #d3ddc2;;
   display: inline-block;
-  opacity: 50%;
   font-size: 14pt;
   padding-left: 0.1in;
   padding-right: 0.1in;
