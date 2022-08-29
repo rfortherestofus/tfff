@@ -18,7 +18,7 @@ theme_tfff <-
         axis.ticks = ggplot2::element_blank(),
         axis.text = ggplot2::element_text(color = tfff_colors("Dark Gray"),
                                           family = base_family),
-        axis.text.y = ggplot2::element_text(hjust = 0),
+        axis.text.y = ggplot2::element_text(margin = ggplot2::margin(r = 10)),
         axis.title.x = ggplot2::element_blank(),
         axis.title.y = ggplot2::element_blank(),
         plot.title = ggplot2::element_text(
