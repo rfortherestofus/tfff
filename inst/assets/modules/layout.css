@@ -61,6 +61,7 @@
 
 .mini-icon {
   flex: 20%;
+  margin-bottom: -0.06in;
 }
 
 .mini-icon > p > img {
