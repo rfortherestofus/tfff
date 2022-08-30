@@ -39,6 +39,12 @@
   padding-right:0.1in;
 }
 
+.columns-67 {
+  flex: 33%;
+  padding-left: 0.1in;
+  padding-right:0.1in;
+}
+
 
 .columns-50 {
   flex: 50%;
