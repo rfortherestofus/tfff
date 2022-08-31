@@ -83,12 +83,13 @@
 
 .mini-icon {
   flex: 20%;
-  margin-bottom: -0.06in;
+  margin-bottom: -0.065in;
 }
 
 .mini-icon > p > img {
   width: 0.55in;
   height: 0.55in;
+  object-fit: contain;
 }
 
 .mini-title {
