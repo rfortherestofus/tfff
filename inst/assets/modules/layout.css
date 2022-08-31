@@ -33,17 +33,16 @@
   padding-top: 0.1in;
 }
 
+.columns-25 {
+  flex: 25%;
+}
+
 .columns-33 {
   flex: 33%;
   padding-left: 0.1in;
   padding-right:0.1in;
 }
 
-.columns-67 {
-  flex: 67%;
-  padding-left: 0.1in;
-  padding-right:0.1in;
-}
 
 
 .columns-50 {
@@ -63,6 +62,16 @@
   flex: 50%;
   padding-left: 0.1in;
 }
+
+.columns-67 {
+  flex: 67%;
+}
+
+
+.columns-75 {
+  flex: 75%;
+}
+
 
 /* Sections icons */
 .wrap-columns-icons {
