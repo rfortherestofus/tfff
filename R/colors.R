@@ -56,7 +56,7 @@ t_col <- function(color, percent = 50) {
     rgb.val[2],
     rgb.val[3],
     max = 255,
-    alpha = (100 - percent) * 255 / 100
+    alpha = percent * 255 / 100
   )
 
   ## Save the color
