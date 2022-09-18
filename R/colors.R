@@ -12,12 +12,11 @@
 tfff_colors <- function(...) {
   tfff_colors_vector <- c(
     `Dark Green` = "#265142",
-    `Light Green` = "#B5CC8E",
-    `Orange` = "#e65100",
-    `Yellow` = "#FBC02D",
-    `Blue` = "#283593",
-    `Red` = "#B71C1C",
-    `Brown` = "#51261C",
+    `Medium Green` = "#71A850",
+    `Light Green` = "#AAC275",
+    `Orange` = "#DD8A03",
+    `Yellow` = "#FCD672",
+    `Blue` = "#42A7C6",
     `Dark Gray` = "#545454",
     `Medium Gray` = "#a8a8a8",
     `Light Gray` = "#eeeeee"
@@ -32,6 +31,4 @@ tfff_colors <- function(...) {
 
   tfff_colors_vector[cols] %>%
     as.vector()
-
-
 }
