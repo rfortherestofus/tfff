@@ -14,16 +14,9 @@
 
 /* titles */
 h1.title {
-  string-set: title content(text);
+
 }
 
 h1.subtitle {
-  string-set: subtitle content(text);
-  padding-bottom: 0.1in;
-  margin-bottom: 0in;
-  border-bottom: solid 1px var(--tfff-green);
-  text-transform: uppercase;
-  color: var(--tfff-lightgreen);
-  font-weight: 600;
-  font-size: 11pt;
+
 }

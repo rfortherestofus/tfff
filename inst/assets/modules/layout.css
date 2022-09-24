@@ -46,15 +46,15 @@
 
 /* Specific */
 .descr-block {
-  position: absolute;
-  margin-left: 0.1in;
-  margin-right: 0.1in;
-  margin-top: -0.3in;
+  margin-top: -1.5in;
   background-color: var(--tfff-blue);
   border-radius: 10px;
   font-size: 11pt;
+  color: white;
+  text-align: center;
 }
 
+/* Table */
 .tabwid table {
   margin-top: 0cm;
   margin-bottom: 0cm;
