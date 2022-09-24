@@ -17,16 +17,15 @@ main > h4{
 h1 {
   font-size: 18pt;
   font-weight: bold;
-  color: var(--tfff-green);
+  color: var(--tfff-blue);
   line-height: 1;
 }
 
 h2 {
   font-size: 14pt;
-  font-weight: normal;
-  color: var(--tfff-green);
+  font-weight: bold;
+  color: var(--tfff-blue);
   line-height: 3.1;
-  text-align: center;
   margin-block-end: 0;
   margin-block-start: 0;
   margin-bottom: -0.065in;
@@ -35,7 +34,7 @@ h2 {
 h3 {
   font-size: 11pt;
   font-weight: bold;
-  color: var(--tfff-green);
+  color: var(--tfff-blue);
   line-height: 1;
   margin-block-end: 0.1in;
 }
@@ -51,4 +50,23 @@ h4 {
 p {
   margin-block-end: 0;
   margin-block-start:  -0.01in;
+}
+
+blockquote {
+  margin-left: 0.5cm;
+}
+
+/* Dotted blue */
+.dotted-blue{
+  background-color: var(--tfff-blue);
+  font-size: 14pt;
+  font-weight: bold;
+  color: white;
+  border-radius: 50%;
+  width: 0.5cm;
+  height: 0.5cm;
+  line-height: 0.5cm;
+  display: inline-table;
+  text-align: center;
+  vertical-align: middle;
 }
