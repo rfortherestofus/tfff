@@ -5,20 +5,6 @@
   /* american paper size */
   size: 8.5in 11in;
 
-  @top-left {
-    content: string(title);
-    font-size: 12pt;
-    font-weight: bold;
-    color: var(--tfff-green);
-  }
-
-  @bottom-left {
-    content: string(subtitle);
-    text-transform: uppercase;
-    color: var(--tfff-lightgreen);
-    font-weight: normal;
-    font-size: 11pt;
-  }
 }
 
 /* Margins for text */
@@ -30,7 +16,6 @@
 .wrap-columns {
   display: flex;
   padding: 0 0pt;
-  padding-top: 0.1in;
 }
 
 .columns-25 {
@@ -39,10 +24,7 @@
 
 .columns-33 {
   flex: 33%;
-
 }
-
-
 
 .columns-50 {
   flex: 50%;
@@ -50,64 +32,30 @@
   padding-right:0.1in;
 }
 
-.columns-50-left {
-  flex: 50%;
-  padding-right: 0.1in;
-  margin-right: 0.1in;
-  border-right: dotted 1px var(--tfff-lightgreen);
-}
-
-.columns-50-right {
-  flex: 50%;
-  padding-left: 0.1in;
-}
-
 .columns-67 {
   flex: 67%;
 }
-
 
 .columns-75 {
   flex: 75%;
 }
 
-
-/* Sections icons */
-.wrap-columns-icons {
-  display: flex;
-  padding: 0 0pt;
-  border-top: solid 1pt var(--tfff-lightgreen);
-  border-bottom: solid 1pt var(--tfff-lightgreen);
-}
-
-.mini-icon {
+.columns-20 {
   flex: 20%;
-  margin-bottom: -0.065in;
-}
-
-.mini-icon > p > img {
-  width: 0.55in;
-  height: 0.55in;
-  object-fit: contain;
-}
-
-.mini-title {
-  flex: 80%;
 }
 
 /* Specific */
 .descr-block {
   position: absolute;
-  margin-left: 3.7in;
+  margin-left: 0.1in;
+  margin-right: 0.1in;
   margin-top: -0.3in;
-  color: var(--tfff-green);
+  background-color: var(--tfff-blue);
+  border-radius: 10px;
   font-size: 11pt;
 }
 
-.green-block {
-  background-color: #d3ddc2;;
-  display: inline-block;
-  font-size: 14pt;
-  padding-left: 0.1in;
-  padding-right: 0.1in;
+.tabwid table {
+  margin-top: 0cm;
+  margin-bottom: 0cm;
 }
