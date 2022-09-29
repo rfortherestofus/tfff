@@ -4,7 +4,7 @@
 \alias{theme_tfff}
 \title{TFFF ggplot2 theme}
 \usage{
-theme_tfff(base_family = "Calibri", base_text_size = 12)
+theme_tfff(base_family = "Figtree", base_text_size = 12)
 }
 \value{
 A ggplot2 theme

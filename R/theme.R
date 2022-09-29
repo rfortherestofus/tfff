@@ -4,7 +4,7 @@
 #' @export
 #'
 theme_tfff <-
-  function(base_family = "Calibri",
+  function(base_family = "Figtree",
            base_text_size = 12) {
     ggplot2::update_geom_defaults("text",
                                   list(family = base_family,
