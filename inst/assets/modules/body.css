@@ -58,15 +58,16 @@ blockquote {
 
 /* Dotted green */
 .dotted-green{
-  background-color: var(--tfff-green);
-  font-size: 10pt;
-  font-weight: bold;
-  color: white;
-  border-radius: 50%;
-  width: 0.3cm;
-  height: 0.3cm;
-  line-height: 0.3cm;
-  display: inline-table;
-  text-align: center;
-  vertical-align: middle;
+    background-color: var(--tfff-green);
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    width: 0.5cm;
+    height: 0.5cm;
+    line-height: 0.5cm;
+    display: inline-table;
+    text-align: center;
+    vertical-align: middle;
+    margin: 3px 0;
 }
