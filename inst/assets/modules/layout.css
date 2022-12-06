@@ -5,12 +5,63 @@
   /* american paper size */
   size: 8.5in 11in;
 
+  /* top */
+  @top-left-corner {
+    content: "";
+    background-color: var(--tfff-medium-green);
+  }
+
+  @top-center {
+    content: "";
+    background-color: var(--tfff-medium-green);
+  }
+
+  @top-right-corner {
+    content: "";
+    background-color: var(--tfff-medium-green);
+  }
+
+  @top-left {
+    content: "";
+    font-weight: bold;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: 20pt;
+    background-color: var(--tfff-medium-green);
+    margin-right: -2in;
+  }
+
+  @top-right {
+    content: string(title);
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: 12pt;
+    background-color: var(--tfff-medium-green);
+  }
+
+  /* bottom */
+  @bottom-left {
+    content: counter(page);
+    font-size: 10pt;
+  }
+
+  @bottom-center {
+    content: "";
+  }
+
+  @bottom-right {
+    content: "";
+    background-image: url(../img/oregon-voices-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 1in;
+    background-position: 1in;
+    margin-top: -1in;
+  }
+
 }
 
 /* Margins for text */
-.main {
-
-}
+.main {}
 
 /* Columns */
 .wrap-columns {
@@ -29,7 +80,7 @@
 .columns-50 {
   flex: 50%;
   padding-left: 0.1in;
-  padding-right:0.1in;
+  padding-right: 0.1in;
 }
 
 .columns-67 {
@@ -60,3 +111,88 @@
   margin-top: 0cm;
   margin-bottom: 0cm;
 }
+
+/* ---------------------------- */
+/* Named pages */
+.demographics {
+  page: demographics;
+  margin-top: 0.15in;
+}
+
+@page demographics {
+  @top-left {
+      content: "Overview & Demographics";
+  }
+}
+
+.households {
+  page: households;
+  margin-top: 0.15in;
+}
+
+@page households {
+  @top-left {
+      content: "Households";
+  }
+}
+
+.community {
+  page: community;
+  margin-top: 0.15in;
+}
+
+@page community {
+  @top-left {
+      content: "Community Services";
+  }
+}
+
+.health {
+  page: health;
+  margin-top: 0.15in;
+}
+
+@page health {
+  @top-left {
+      content: "Health";
+  }
+}
+
+.education {
+  page: education;
+  margin-top: 0.15in;
+}
+
+@page education {
+  @top-left {
+      content: "Education & Employment";
+  }
+}
+
+.infrastructure {
+  page: infrastructure;
+  margin-top: 0.15in;
+}
+
+@page infrastructure {
+  @top-left {
+      content: "Community Infrastructure";
+  }
+}
+
+.voices {
+  page: voices;
+  margin-top: 0.15in;
+}
+
+@page voices {
+  @top-left {
+      content: "Community Voices";
+  }
+}
+
+
+
+
+
+

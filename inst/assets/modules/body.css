@@ -69,3 +69,341 @@ blockquote {
   text-align: center;
   vertical-align: middle;
 }
+
+/* ---------------------- */
+
+
+/* Population pages */
+
+.population {
+  page: population;
+  margin-top: 0.15in;
+}
+
+@page population {
+  @top-left-corner {
+      content: "";
+      background-color: var(--psc-red);
+  }
+  @top-center {
+      background-color: var(--psc-red);
+  }
+  @top-right-corner {
+      content: "";
+      background-color: var(--psc-red);
+  }
+  @top-left {
+      content: "Population";
+      background-color: var(--psc-red);
+  }
+  @top-right {
+      background-color: var(--psc-red);
+  }
+  @bottom-left {
+      color: var(--psc-red) !important;
+  }
+  @bottom-center {
+      color: var(--psc-red) !important;
+  }
+}
+
+h1 {
+  font-size: 24pt;
+  text-transform: uppercase;
+  color: var(--psc-textcolor);
+  margin-top: 12pt;
+}
+
+h5 {
+  margin-block-start: 0.6em;
+  margin-block-end: 0em;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+
+/* margin */
+
+.level2:first-of-type {
+  margin-top: 0cm;
+}
+
+
+/* logo */
+
+.logo {
+  position: absolute;
+  right: 1cm;
+}
+
+
+/* ---------------------- */
+
+
+/* Page breaks */
+
+.section>h1,
+.section>h2,
+.section>h3,
+.section>h4,
+.section>h5,
+.section>h6 {
+  break-after: avoid;
+}
+
+.figure {
+  break-inside: avoid;
+}
+
+caption {
+  break-inside: avoid;
+  break-after: avoid;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* ----------------- */
+
+
+/* Text style */
+
+
+/* Titles */
+
+h3 {
+  font-weight: bold;
+  font-size: 28pt;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+  color: var(--tfff-medium-green);
+}
+
+h4 {
+  font-family: var(--psc-textfont);
+  font-weight: 400;
+  font-size: 9pt;
+  color: var(--psc-grey);
+  margin-top: 12pt;
+  margin-bottom: -6pt;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.first-intro h4 {
+  font-family: var(--psc-textfont);
+  font-weight: 400;
+  font-size: 11pt;
+  color: var(--psc-grey);
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.025em;
+  text-transform: none;
+}
+
+.first-intro h3 {
+  font-weight: bold;
+  font-size: 28pt;
+  margin-top: 6pt;
+  margin-bottom: 0;
+
+}
+
+.key-findings h4 {
+  font-size: 9pt;
+}
+
+
+.key-findings {
+  margin-bottom: 2em;
+}
+
+/* Normal text */
+
+
+/* To avoid changes on first page */
+
+p,
+ul,
+blockquote,
+.pagedjs_margin-content {
+  font-family: var(--psc-textfont);
+}
+
+a {
+  color: var(--psc-textcolor);
+  text-decoration: none;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+
+/* .pagedjs_pages .pagedjs_margin-bottom .pagedjs_margin-content::after {
+  display: block;
+color: var(--psc-lightgrey);
+} */
+
+p,
+ul,
+blockquote {
+  font-size: 9pt;
+  color: var(--psc-textcolor);
+  line-height: 1.5;
+  hyphens: auto;
+}
+
+
+/* Margins around images */
+
+.columns-75 p,
+.columns-75 h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* ----------------- */
+
+
+/* Columns layout */
+
+
+/* Multiples columns blocks */
+
+.wrap-columns {
+  display: flex;
+  border-top: 1px solid var(--psc-superlightgrey);
+}
+
+.wrap-columns-no-padding {
+  display: flex;
+  border-top: 1px solid var(--psc-superlightgrey);
+}
+
+.first-intro .wrap-columns {
+  padding: 0 1pt;
+}
+
+.first-intro {
+  margin-top: -0.5cm;
+}
+
+.first-intro .columns-75 {
+  flex: 75%;
+  padding-left: 0;
+  align-items: center;
+}
+
+.columns-50 {
+  flex: 50%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.columns-25 {
+  flex: 25%;
+}
+
+.columns-18 {
+  flex: 18%;
+}
+
+.columns-75 {
+  flex: 75%;
+  padding-left: 20pt;
+  align-items: center;
+}
+
+.columns-33 {
+  flex: 33%;
+  padding-right: 20pt;
+}
+
+.columns-67 {
+  flex: 67%;
+  padding-left: 20pt;
+  padding-top: 10pt;
+  align-items: center;
+}
+
+.columns-40 {
+  flex: 40%;
+  padding-right: 20pt;
+}
+
+.columns-20 {
+  flex: 20%;
+  padding-right: 20pt;
+}
+
+.columns-20-map {
+  flex: 20%;
+  padding: 0 10pt 10pt 20pt;
+}
+
+.columns-60 {
+  flex: 60%;
+  padding-left: 20pt;
+  align-items: center;
+}
+
+.columns-55-center {
+  flex: 55%;
+  text-align: center;
+  display: inline-flex;
+  padding-left: 0.5cm;
+}
+
+.columns-45-center {
+  flex: 45%;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.void-div {}
+
+
+/* Borders */
+
+.psc-no-border {
+  border: none;
+}
+
+.psc-border-right {
+  border-right: 1px solid var(--psc-superlightgrey);
+}
+
+.psc-no-vertical-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.psc-extra-padding-top {
+  padding-top: 10pt;
+}
+
+.psc-extra-padding-left {
+  padding-left: 20pt;
+}
+
+.psc-extra-padding-right {
+  padding-right: 20pt;
+}
+
+.psc-extra-padding-bottom {
+  padding-bottom: 10pt;
+}
+
+/* Misc stuff */
+hr {
+  border: 1px solid #ededed;
+  margin-block-end: 2px;
+  margin-block-start: 2px;
+}

@@ -3,3 +3,8 @@
 @page:first{
 
 }
+
+
+h1.title {
+    string-set: title content(text);
+}
