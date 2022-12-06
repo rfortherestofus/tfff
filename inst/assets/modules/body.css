@@ -36,10 +36,18 @@ h3 {
   color: var(--tfff-green);
   line-height: 1;
   margin-block-end: 0.1in;
+  font-size: 28pt;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
 }
 
 h4 {
-  font-size: 12pt;
+  font-weight: 400;
+  font-size: 9pt;
+  margin-top: 12pt;
+  margin-bottom: -6pt;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
 }
 
 .figure {
@@ -47,12 +55,13 @@ h4 {
 }
 
 p {
-  margin-block-end: 0;
-  margin-block-start:  -0.01in;
+
 }
 
 blockquote {
   margin-left: 0.5cm;
+  background-color: var(--tfff-lightgreen);
+  padding: 0.5cm;
 }
 
 /* Dotted green */

@@ -11,16 +11,6 @@
     background-color: var(--tfff-medium-green);
   }
 
-  @top-center {
-    content: "";
-    background-color: var(--tfff-medium-green);
-  }
-
-  @top-right-corner {
-    content: "";
-    background-color: var(--tfff-medium-green);
-  }
-
   @top-left {
     content: "";
     font-weight: bold;
@@ -31,6 +21,12 @@
     margin-right: -2in;
   }
 
+  @top-center {
+    content: "";
+    background-color: var(--tfff-medium-green);
+    margin-left: 2in;
+  }
+
   @top-right {
     content: string(title);
     color: #ffffff !important;
@@ -39,10 +35,16 @@
     background-color: var(--tfff-medium-green);
   }
 
+  @top-right-corner {
+    content: "";
+    background-color: var(--tfff-medium-green);
+  }
+
   /* bottom */
   @bottom-left {
     content: counter(page);
     font-size: 10pt;
+    margin-top: -0.5in;
   }
 
   @bottom-center {
@@ -75,6 +77,8 @@
 
 .columns-33 {
   flex: 33%;
+  padding-left: 0.1in;
+  padding-right: 0.1in;
 }
 
 .columns-50 {
@@ -85,6 +89,8 @@
 
 .columns-67 {
   flex: 67%;
+  padding-left: 0.1in;
+  padding-right: 0.1in;
 }
 
 .columns-75 {
@@ -95,16 +101,6 @@
   flex: 20%;
 }
 
-/* Specific */
-.descr-block {
-  margin-top: -1.5in;
-  margin-bottom: -0.1in;
-  background-color: var(--tfff-green);
-  border-radius: 10px;
-  font-size: 11pt;
-  color: white;
-  text-align: center;
-}
 
 /* Table */
 .tabwid table {
@@ -143,7 +139,7 @@
 
 @page community {
   @top-left {
-      content: "Community Services";
+      content: "Community Pride & Engagement";
   }
 }
 

@@ -1,10 +1,56 @@
 /* First page */
 
-@page:first{
+@page:first {
+
+    margin-top: 0.2in;
+
+    /* top */
+    @top-left-corner {
+        content: "";
+        background-color: var(--tfff-medium-green);
+    }
+
+    @top-left {
+        content: "";
+        background-color: var(--tfff-medium-green);
+    }
+
+    @top-center {
+        content: "";
+        background-color: var(--tfff-medium-green);
+    }
+
+    @top-right {
+        content: "";
+        background-color: var(--tfff-medium-green);
+    }
+
+    @top-right-corner {
+        content: "";
+        background-color: var(--tfff-medium-green);
+    }
 
 }
 
+/* Title & subtitle */
 
 h1.title {
     string-set: title content(text);
+    margin-top: 1in;
+}
+
+h1.subtitle {
+    position: absolute;
+    margin-top: -1in;
+    color: var(--tfff-medium-green);
+}
+
+/* Specific */
+.descr-block {
+    margin-top: -1.8in;
+    margin-bottom: -0.1in;
+    background-color: var(--tfff-green);
+    font-size: 11pt;
+    color: white;
+    text-align: center;
 }
