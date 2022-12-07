@@ -36,18 +36,16 @@ h3 {
   color: var(--tfff-green);
   line-height: 1;
   margin-block-end: 0.1in;
-  font-size: 28pt;
+  font-size: 20pt;
   margin-top: 6pt;
   margin-bottom: 6pt;
 }
 
 h4 {
-  font-weight: 400;
-  font-size: 9pt;
+  font-weight: bold;
+  font-size: 12pt;
   margin-top: 12pt;
-  margin-bottom: -6pt;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
+  margin-bottom: -2pt;
 }
 
 .figure {
@@ -55,7 +53,7 @@ h4 {
 }
 
 p {
-
+  font-size: 11pt;
 }
 
 blockquote {
