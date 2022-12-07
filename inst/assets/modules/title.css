@@ -37,18 +37,25 @@
 h1.title {
     string-set: title content(text);
     margin-top: 1in;
+    margin-bottom: 1in;
+    font-size: 24pt;
+    text-transform: uppercase;
 }
 
 h1.subtitle {
     position: absolute;
-    margin-top: -1in;
+    margin-top: -2in;
     color: var(--tfff-medium-green);
+    font-size: 28pt;
+    font-weight: normal;
 }
 
 /* Specific */
 .descr-block {
-    margin-top: -1.8in;
+    margin-top: -2.8in;
     margin-bottom: -0.1in;
+    padding-top: 0.3in;
+    line-height: 0.1;
     background-color: var(--tfff-green);
     font-size: 11pt;
     color: white;
