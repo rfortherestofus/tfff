@@ -37,7 +37,7 @@ h3 {
   line-height: 1;
   margin-block-end: 0.1in;
   font-size: 20pt;
-  margin-top: 6pt;
+  margin-top: 0pt;
   margin-bottom: 6pt;
 }
 
@@ -45,7 +45,7 @@ h4 {
   font-weight: bold;
   font-size: 12pt;
   margin-top: 12pt;
-  margin-bottom: -2pt;
+  margin-bottom: 4pt;
 }
 
 .figure {
@@ -56,9 +56,13 @@ p {
   font-size: 11pt;
 }
 
+hr {
+  border: 1px solid var(--tfff-darkgray)
+}
+
 blockquote {
   margin-left: 0.5cm;
-  background-color: var(--tfff-lightgreen);
+  background-color: var(--tfff-lightlightgreen);
   padding: 0.5cm;
   margin-inline-start: 0;
   margin-inline-end: 0;
@@ -87,4 +91,8 @@ blockquote {
 
 .small-text {
   font-size: 12px;
+}
+
+.text-it > p {
+  font-style: italic ;
 }
