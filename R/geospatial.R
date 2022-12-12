@@ -16,3 +16,4 @@ tfff_get_basemap <- function() {
 
   tfff_basemap
 }
+
