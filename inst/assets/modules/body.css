@@ -57,7 +57,9 @@ p {
 }
 
 hr {
-  border: .25pt solid rgba(0, 0, 0, 0.5);
+  border: none;
+  height: 0.5pt;
+  background-color: rgba(0,0,0, 0.5);
 }
 
 blockquote {
