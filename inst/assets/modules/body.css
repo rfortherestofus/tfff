@@ -57,7 +57,7 @@ p {
 }
 
 hr {
-  border: 1px solid var(--tfff-light-gray)
+  border: .25pt solid rgba(0, 0, 0, 0.5);
 }
 
 blockquote {
@@ -81,7 +81,7 @@ blockquote {
   display: inline-table;
   text-align: center;
   vertical-align: middle;
-  margin: 3px 0;
+  margin: 3px px 0 0;
 }
 
 .dotted-div > p {
