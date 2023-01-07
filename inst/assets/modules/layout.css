@@ -176,19 +176,6 @@
   }
 }
 
-.voices {
-  page: voices;
-  margin-top: 0.15in;
-}
-
-@page voices {
-  @top-left {
-      content: "Community Voices";
-  }
-}
-
-
-
 
 
 

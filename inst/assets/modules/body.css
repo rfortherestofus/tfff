@@ -7,18 +7,12 @@ body {
   color: var(--color-body);
 }
 
-main>h1,
-main>h2,
-main>h3,
-main>h4 {
-  font-family: var(--font-title);
-}
-
 h1 {
   font-size: 18pt;
   font-weight: bold;
   color: var(--tfff-green);
   line-height: 1;
+  font-family: var(--font-title);
 }
 
 h2 {
@@ -28,11 +22,13 @@ h2 {
   line-height: 1;
   margin-block-end: 0.1in;
   margin-block-start: 0.1in;
+  font-family: var(--font-title);
 }
 
 h3 {
   font-size: 11pt;
   font-weight: bold;
+  font-family: var(--font-main);
   color: var(--tfff-green);
   line-height: 1;
   margin-block-end: 0.1in;
@@ -46,6 +42,7 @@ h4 {
   font-size: 11pt;
   margin-top: 12pt;
   margin-bottom: 4pt;
+  font-family: var(--font-title);
 }
 
 .figure {
