@@ -34,15 +34,25 @@ h3 {
   margin-block-end: 0.1in;
   font-size: 18pt;
   margin-top: 0pt;
-  margin-bottom: 6pt;
+  margin-bottom: 0pt;
 }
 
 h4 {
   font-weight: bold;
   font-size: 11pt;
   margin-top: 12pt;
-  margin-bottom: 4pt;
+  margin-bottom: 0pt;
+  margin-block-end: 0.1in;
   font-family: var(--font-title);
+}
+
+h5 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 11pt;
+  font-family: var(--font-title);
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .figure {
@@ -51,6 +61,7 @@ h4 {
 
 p {
   font-size: 10pt;
+  margin-block-start: 0.1in;
 }
 
 hr {
@@ -79,8 +90,7 @@ blockquote {
   line-height: 0.5cm;
   display: inline-table;
   text-align: center;
-  vertical-align: middle;
-  margin: 3px 5px 0 0;
+  margin: 0 5px 0 0;
 }
 
 .dotted-div > p {

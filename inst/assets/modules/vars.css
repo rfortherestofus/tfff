@@ -5,7 +5,8 @@
 
   /* fonts */
   --font-main: "ProximaNova";
-  --font-title: "Montserrat";
+  --font-title: "ProximaNova";
+  --font-main-title: "Montserrat"
 
   /* base unit */
   --unit: 2cm;
