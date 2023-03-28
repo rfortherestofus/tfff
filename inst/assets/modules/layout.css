@@ -41,7 +41,7 @@
   }
 
   /* bottom */
-  @bottom-left {
+  @bottom-right {
     content: counter(page);
     font-size: 10pt;
     margin-top: -0.5in;
@@ -51,12 +51,12 @@
     content: "";
   }
 
-  @bottom-right {
+  @bottom-left {
     content: "";
     background-image: url(../img/Oregon_Voices_logo_update.jpg);
     background-repeat: no-repeat;
     background-size: 1in;
-    background-position: 1in;
+    background-position: 0;
     margin-top: -1in;
   }
 
