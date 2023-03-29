@@ -176,6 +176,16 @@
   }
 }
 
+.last-page {
+  page: last-page;
+  margin-top: 0.15in;
+  text-align: center;
+}
+
+@page last-page {
+
+}
+
 
 
 

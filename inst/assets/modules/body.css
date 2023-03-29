@@ -111,3 +111,8 @@ blockquote {
 .text-it>p {
   font-style: italic;
 }
+
+/* logo bar */
+.logo-bar{
+  display: flex;
+}
