@@ -112,7 +112,31 @@ blockquote {
   font-style: italic;
 }
 
-/* logo bar */
-.logo-bar{
-  display: flex;
+/* last-page */
+.logo-bar {
+  font-size: 11pt;
+}
+
+.logo-bar-partner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1in;
+    margin-right: 1in;
+}
+
+.last-page {
+  font-size: 10pt;
+  font-family: var(--font-main-title);
+  margin-left: .9in;
+  margin-right: .9in;
+}
+
+.last-page > blockquote {
+  font-size: 12pt;
+}
+
+.last-page > blockquote > p > strong {
+  font-size: 14pt;
+  color: var(--tfff-green);
 }
