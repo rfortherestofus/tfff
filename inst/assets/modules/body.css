@@ -140,6 +140,7 @@ blockquote {
   font-size: 14pt;
   color: var(--tfff-green);
   text-decoration: none;
+  font-weight: bold;
 }
 
 .last-page > p > a {
