@@ -136,7 +136,13 @@ blockquote {
   font-size: 12pt;
 }
 
-.last-page > blockquote > p > strong {
+.last-page > blockquote > p > a {
   font-size: 14pt;
   color: var(--tfff-green);
+  text-decoration: none;
+}
+
+.last-page > p > a {
+  text-decoration: none;
+  color: black;
 }
