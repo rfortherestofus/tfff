@@ -126,18 +126,17 @@ blockquote {
 }
 
 .last-page {
-  font-size: 10pt;
-  font-family: var(--font-main-title);
+  font-size: 11.5pt;
   margin-left: .9in;
   margin-right: .9in;
 }
 
 .last-page > blockquote {
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 .last-page > blockquote > p > a {
-  font-size: 14pt;
+  font-size: 16pt;
   color: var(--tfff-green);
   text-decoration: none;
   font-weight: bold;
