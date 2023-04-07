@@ -194,4 +194,14 @@
 
 
 
+/* -------------------- */
+/* appreciate-concerns */
+.appreciate-concerns > p {
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+  font-size: 9pt;
+}
 
+.appreciate-concerns > p > strong {
+  font-size: 10pt;
+}
