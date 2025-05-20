@@ -11,7 +11,7 @@
 #'
 tfff_colors <- function(...) {
   tfff_colors_vector <- c(
-    `Dark Green` = "#265142",
+    `Dark Green` = "#004f39",
     `Medium Green` = "#71A850",
     `Light Green` = "#B5CC8E",
     `Orange` = "#DD8A03",
@@ -26,8 +26,7 @@ tfff_colors <- function(...) {
 
   cols <- stringr::str_to_title(cols)
 
-  if (is.null(cols))
-    return(tfff_colors_vector)
+  if (is.null(cols)) return(tfff_colors_vector)
 
   tfff_colors_vector[cols] %>%
     as.vector()
