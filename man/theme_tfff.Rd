@@ -4,7 +4,11 @@
 \alias{theme_tfff}
 \title{TFFF ggplot2 theme}
 \usage{
-theme_tfff(base_family = "Figtree", base_text_size = 12)
+theme_tfff(
+  base_family = "ProximaNova-Regular",
+  base_text_size = 12,
+  base_size = 14
+)
 }
 \value{
 A ggplot2 theme
