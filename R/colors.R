@@ -17,6 +17,7 @@ tfff_colors <- function(...) {
     `Orange` = "#DD8A03",
     `Yellow` = "#FCD672",
     `Blue` = "#42A7C6",
+    `Red` = "#b71c1c",
     `Dark Gray` = "#545454",
     `Medium Gray` = "#a8a8a8",
     `Light Gray` = "#eeeeee"
