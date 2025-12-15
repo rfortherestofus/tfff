@@ -1,0 +1,42 @@
+# tfff
+
+This is an internal package for [the Ford Family
+Foundation](https://tfff.org) to help make data viz, get data, etc.
+
+## Installation
+
+You can install the development version of tfff from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("rfortherestofus/tfff")
+```
+
+# Package index
+
+## All functions
+
+- [`download_file()`](https://rfortherestofus.github.io/tfff/reference/download_file.md)
+  : Download a file from a GitHub repository
+- [`get_files()`](https://rfortherestofus.github.io/tfff/reference/get_files.md)
+  : Get a list of files matching a pattern from a GitHub repository
+- [`load_obtn_data()`](https://rfortherestofus.github.io/tfff/reference/load_obtn_data.md)
+  : Load data from a GitHub repository
+- [`register_fonts()`](https://rfortherestofus.github.io/tfff/reference/register_fonts.md)
+  : Function to register fonts of the TFFF
+- [`t_col()`](https://rfortherestofus.github.io/tfff/reference/t_col.md)
+  : Transparency color - from
+  https://www.dataanalytics.org.uk/make-transparent-colors-in-r/
+- [`tfff_colors()`](https://rfortherestofus.github.io/tfff/reference/tfff_colors.md)
+  : Function to extract TFFF colors as hex codes
+- [`tfff_draft()`](https://rfortherestofus.github.io/tfff/reference/tfff_draft.md)
+  : TFFF paged template
+- [`tfff_get_basemap()`](https://rfortherestofus.github.io/tfff/reference/tfff_get_basemap.md)
+  : Function to get an sf object with the TFFF service area (Oregon and
+  Siskiyou County, California)
+- [`tfff_offices`](https://rfortherestofus.github.io/tfff/reference/tfff_offices.md)
+  : Locations of TFFF offices
+- [`theme_tfff()`](https://rfortherestofus.github.io/tfff/reference/theme_tfff.md)
+  : TFFF ggplot2 theme
+
