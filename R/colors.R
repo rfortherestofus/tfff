@@ -27,7 +27,9 @@ tfff_colors <- function(...) {
 
   cols <- stringr::str_to_title(cols)
 
-  if (is.null(cols)) return(tfff_colors_vector)
+  if (is.null(cols)) {
+    return(tfff_colors_vector)
+  }
 
   tfff_colors_vector[cols] %>%
     as.vector()
@@ -41,7 +43,8 @@ tfff_colors <- function(...) {
 #' @return A color hex
 #' @export
 #'
-#' @example t_col(tfff_colors("Dark Green"),50)
+#' @examples
+#' t_col(tfff_colors("Dark Green"),50)
 t_col <- function(color, percent = 50) {
   #      color = color name
   #    percent = % transparency

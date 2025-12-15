@@ -17,3 +17,6 @@ A color hex
 \description{
 Transparency color - from https://www.dataanalytics.org.uk/make-transparent-colors-in-r/
 }
+\examples{
+t_col(tfff_colors("Dark Green"),50)
+}
