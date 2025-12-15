@@ -28,6 +28,21 @@ devtools::install_github("rfortherestofus/tfff")
 - [`t_col()`](https://rfortherestofus.github.io/tfff/reference/t_col.md)
   : Transparency color - from
   https://www.dataanalytics.org.uk/make-transparent-colors-in-r/
+- [`tfff_label_comma()`](https://rfortherestofus.github.io/tfff/reference/tfff-comma.md)
+  [`tfff_comma()`](https://rfortherestofus.github.io/tfff/reference/tfff-comma.md)
+  [`tfff_scale_x_comma()`](https://rfortherestofus.github.io/tfff/reference/tfff-comma.md)
+  [`tfff_scale_y_comma()`](https://rfortherestofus.github.io/tfff/reference/tfff-comma.md)
+  : Comma formatting
+- [`tfff_label_dollar()`](https://rfortherestofus.github.io/tfff/reference/tfff-dollar.md)
+  [`tfff_dollar()`](https://rfortherestofus.github.io/tfff/reference/tfff-dollar.md)
+  [`tfff_scale_x_dollar()`](https://rfortherestofus.github.io/tfff/reference/tfff-dollar.md)
+  [`tfff_scale_y_dollar()`](https://rfortherestofus.github.io/tfff/reference/tfff-dollar.md)
+  : Dollar formatting
+- [`tfff_label_percent()`](https://rfortherestofus.github.io/tfff/reference/tfff-percent.md)
+  [`tfff_percent()`](https://rfortherestofus.github.io/tfff/reference/tfff-percent.md)
+  [`tfff_scale_x_percent()`](https://rfortherestofus.github.io/tfff/reference/tfff-percent.md)
+  [`tfff_scale_y_percent()`](https://rfortherestofus.github.io/tfff/reference/tfff-percent.md)
+  : Percent formatting
 - [`tfff_colors()`](https://rfortherestofus.github.io/tfff/reference/tfff_colors.md)
   : Function to extract TFFF colors as hex codes
 - [`tfff_draft()`](https://rfortherestofus.github.io/tfff/reference/tfff_draft.md)
